@@ -4,29 +4,68 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>HTML and CSS Authoring 2</title>
-        <!-- You may want to add other icon formats and sizes, but have this at the least: 
-        <link rel="shortcut icon" href="favicon.ico">
-        <link rel="stylesheet" href="your.css"> -->
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nabla&display=swap" rel="stylesheet">
         <style>
+          .nabla-text {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(243, 106, 26);
+}
+h1{
+  font-size: 400%;
+}
+h3{
+  font-size: 200%;
+}
+ol{
+  font-family: monospace;
+  color: brown;
+  font-size: 20px
+}
+ul{
+  padding-left: 0%;
+}
+p{
+  color: brown;
+  font-size: 30px;
+  margin-top: 15px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+
         body {
-            background-color: lightskyblue;
-            font-family: 'Courier New', Courier, monospace;
-            padding: 50px;
+            background-color: rgb(254, 255, 224);
+            padding: 30px;
         }
         h1 {
-            color: blue;
+            color: rgb(70, 184, 255);
         }
         </style>
     </head>
  
   <body>
     <main>
-      <h1>Client Side Scripting</h1>
-      <h3>Erin O'Daniel</h3>
-      <h3>Fall Semester 2025</h3>
+      <h1 class="nabla-text">Client Side Scripting</h1>
+      <h3 class="bebas-neue-regular">Erin O'Daniel</h3>
+      <h3 class="nabla-text">Fall Semester 2025</h3>
       <br>
       <br>
-      <p>I added this sentence in VS Code editor, and pushed it to my GitHub </p>
+      <p class="bebas-neue-regular">I added this sentence in VS Code editor, and pushed it to my GitHub </p>
 
 
       <ul>
